@@ -1,0 +1,53 @@
+Hello
+Hi! How can I help you today?
+I want to learn more about managing my money.
+Okay. I'd be happy to teach you. Do you already have a bank account?
+No, I don't.
+Okay. In order to manage your money, you need a place to put it first. Would you like to know how to open a current account at Chase?
+Sure. How do I do that?
+You can start by going to: https://www.chase.co.uk/gb/en/product/chase-account/
+Okay. Now what? What is a current account?",
+A current account is a place where you can park your money and use it for your everyday needs. It is free to open and you can use it to buy your everyday essentials, get paid from your employer, and pay your bills.
+All right. What else do I need to manage my money. I want to grow my savings.
+You can grow your savings by choosing a current account with benefits or opening a savings account.
+What is a current account with benefits?
+A current account with benefits gives you something back when you store or spend money with it. For example, Chase gives all its first year current account holders 1% cash back (up to £15 per month) when they use their debit card to buy groceries, everyday transport, and fuel. That's money back in your pocket.
+How does cashback work?
+Cashback works exactly how it sounds. You buy something, and we give you some of your money back. For example, let's say that you've got a craving for some chocolate and that chocolate bar costs £1. With 1% cashback, you get 1p back into your account. That means the chocolate bar only really cost you 99p.
+That sounds great. How else can I save my money or make my money grow?
+You can make your money grow by opening a savings account with us. These types of accounts pay you back in interest in every month. This lets your sitting cash earn a couple of extra pence instead of sitting stagnant like it would in a current account. We have two types of savings account. A traditional savings account, called a Chase saver, and a round-up account. Which one would you like to learn more about?
+What's the difference between the two?
+The traditional account, the Chase saver.
+Our Chase saver account is a great place to park your money if you're saving towards a holiday trip or a great birthday gift. Interest is calculated daily and paid out monthly.
+What is the interest rate on a Chase saver account?
+The interest rate is AER (variable): 2.50% and Gross(variable): 2.47%.
+What do these terms mean? What is the difference between AER, gross, and variable?
+AER is the rate of interest you earn from us on any balance above £0. It's short for Annual Equivalent Rate and shows the interest rate for a year, taking into account any interest payments made to you during the year. The AER lets you compare the interest rates on accounts from different banks and building societies where interest may be calculated or paid at different frequencies.
+Gross interest is the rate used to calculate your monthly interest payments where no tax is deducted. UK bank interest is paid gross. The interest you receive is subject to taxation.
+Variable means the rate can change and go up or down.",
+Does this mean you tax me before paying out my interest?",
+No. We don't take off any tax before paying your interest – this is standard for UK banks. However, interest you earn on your Chase accounts is taxable in the UK. How much interest you can earn before paying tax depends on your income tax rate.
+As a UK taxpayer, you may qualify for the Personal Savings Allowance, which allows you to earn some interest without paying income tax. If you only pay the basic rate of income tax, you can earn £1,000 in interest tax-free.
+If you're a higher-rate taxpayer, you can earn up to £500 tax-free. Additional-rate taxpayers do not get a Personal Savings Allowance – this means any interest you earn will be taxed. You can find out more at gov.uk
+If you're a tax resident in another country, you might also need to pay tax on any interest you earn in that country.",
+Okay. I think I understand. Can you tell me more about the round-up account?
+Sure. You can open a round-up account to save the spare change from your eligible card transactions to the nearest pound. We'll add the change to your round-up account, where you’ll earn interest. Just so you know, you can't pay into a round-up account any other way or spend from it directly.
+The current interest rate for our round-up accounts is AER(variable): 5.00% and Gross(variable): 4.89%.
+Which account is better then?
+No account is better than the other. It all depends on your needs. A round-up account is a great way to save money without having to think about it, while a Chase saver, or traditional savings account, is a fantastic account to have if you're saving for a specific goal.
+What's the difference between the two of them?
+The round-up account earns your more interest, but can't put any money directly into it. The Chase saver account accrues less interest, but you can put as much money into it whenever you like. This makes the Chase saver a great option for people who earn a flexible income or who have different spending requirements each month.
+Can I only have one account?
+No you are free to open as many current or savings accounts as you like! Having multiple accounts is actually a great way to help you manage your money. For example, you can open one current account manage your bills with Direct Debits and another one for your spending money. You can budget further by creating a savings account for each thing you're saving for, like a trip to the Bahamas or a new gaming console.
+That's great. Are there any other services you offer?
+Yes! Chase also offers credit cards. Credit cards are great if you're making a big purchase you would like to split up into multiple payments or if you're ever in a situation where you don't have money and you need to pay for something now. Just keep in mind that you'll have to pay this money back with interest.
+What's the interest rate on a Chase credit card?
+If you're a new customer, the interest rate is 0% on purchases for up to 15 months (if you make your minimum repayments). Our credit cards don't have any annual fees or foreign exchange fees, so they could be ideal for your next big purchase or exciting adventure. For daily spening, we recommend a current account with a debit card instead.
+What do I need to open a credit card?
+To apply for a Chase credit card, you'll need to: have a Chase current account, be free of bankruptcies, County Court Judgements (CCJs) and Individual Voluntary Agreements (IVAs) for the last 6 years pass our creditworthiness and affordability checks. Just so you know, checking your eligibility won't impact your credit score. We'll ask a few questions and – although there's no guarantee you'll be eligible – we'll tell you if you can apply.
+What is the interest on a credit card?
+The interest rate on a credit card with a £1200 credit limit is 24.9% p.a. APR (variable).
+Is there anything else I should know about managing my money?
+Yes! Keep a budget and always spend within your means. If you want to track your spending, you can always check it with our app which is available on Apple and Android.
+Okay. Thank you.
+You're welcome. I'm happy I could be of help! If you ever need me again, I'm always here to help.
