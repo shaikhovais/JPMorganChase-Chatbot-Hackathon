@@ -12,7 +12,7 @@ interface Response {
     providedIn: 'root',
 })
 export class ChatbotApiService {
-    private apiUrl = 'http://localhost:5001/query';
+    private apiUrl = 'https://jpmorganchase-chatbot-backend.onrender.com/query';
 
     constructor(private http: HttpClient) {}
 
