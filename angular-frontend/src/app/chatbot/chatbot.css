@@ -1,0 +1,64 @@
+.menu-img {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+}
+
+.chatbot-img {
+    height: 25px;
+    width: 25px;
+    margin: 0px 5px;
+}
+
+.user-msg {
+    background-color: #8f5a39;
+    color: white;
+    max-width: 70%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.bot-msg {
+    background-color: #f2f2f2;
+    color: black;
+    max-width: 70%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.option-btn {
+    border: 1px solid #8f5a39;
+    background-color: #8f5a39;
+    color: white;
+    border-radius: 3px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 14px;
+    white-space: nowrap;
+    transition: all 0.2s ease;
+    width: 100%;
+}
+
+.option-btn:hover {
+    background-color: #6d4229;
+    transform: translateY(-1px);
+}
+
+.option-btn:active {
+    transform: translateY(0);
+}
+
+.send-btn:hover {
+    transform: translateY(-1px);
+}
+
+.send-btn:active {
+    transform: translateY(0);
+}
+
+button[ngbDropdownToggle]::after {
+    display: none !important;
+}

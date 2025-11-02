@@ -1,0 +1,21 @@
+# Python
+python-backend/venv/
+python-backend/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.db
+**/*.sqlite3
+.env
+
+# Angular
+angular-frontend/node_modules/
+angular-frontend/dist/
+angular-frontend/.angular/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

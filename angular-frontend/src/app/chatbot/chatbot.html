@@ -1,0 +1,59 @@
+<div class="card p-3 shadow" style="width: 400px">
+    <div class="d-flex flex-row justify-content-between h-300">
+        <div class="d-flex">
+            <img [src]="chatbotImgPath" alt="Chatbot" class="chatbot-img">
+            <h5 class="card-title text-center">JPMorgan Chatbot</h5>
+        </div>
+        <div ngbDropdown class="d-inline-block">
+            <button type="button" class="btn p-0 border-0" id="dropdown1" ngbDropdownToggle>
+                <img [src]="menuImgPath" alt="Menu" class="menu-img">
+            </button>
+
+    <!-- Menu dropdown -->
+            <div ngbDropdownMenu aria-labelledby="dropdown1">
+                <button ngbDropdownItem (click)="startNewChat()">
+                    <img [src]="newChatImgPath" alt="Send" class="menu-img">
+                    Start new chat
+                </button>
+                <button ngbDropdownItem (click)="saveChat()">
+                    <img [src]="saveChatImgPath" alt="Send" class="menu-img">
+                    Save chat
+                </button>
+                <hr />
+                <button ngbDropdownItem (click)="fetchSavedChats()">
+                    <img [src]="savedChatsImgPath" alt="Send" class="menu-img">
+                    Saved chats
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Message box -->
+    <div #messageBox class="border rounded p-2 mb-2" style="height: 300px; overflow-y: auto;">
+        @for (message of messages; track message) {
+            <div class="d-flex mb-2" [ngClass]="message.sender === 'user' ? 'justify-content-end' : 'justify-content-start'">
+                <div class="rounded p-2" [class]="message.sender === 'user' ? 'user-msg' : 'bot-msg'">
+                    {{message.message}}
+                    @if (message.options) {
+                        <div class="d-flex flex-wrap gap-2 mt-2" style="max-width: 100%;">
+                            @for (option of message.options; track option) {
+                                <button (click)="defaultOptionSelection(option)" type="button" class="option-btn">
+                                    <span class="text-wrap">
+                                        {{option.title}}
+                                    </span>
+                                </button>
+                            }
+                        </div>
+                    }
+                </div>
+            </div>
+        }
+    </div>
+    
+    <div class="d-flex align-items-center gap-2">
+        <input #messageInput [(ngModel)]="inputMessage" type="text" class="form-control" placeholder="Type your message" (keyup.enter)="sendMessage()" />
+        <button type="button" class="btn p-0 border-0 send-btn" (click)="sendMessage()" [disabled]="!inputMessage">
+            <img [src]="sendMsgImgPath" alt="Send Message" style="height: 40px; width: 40px;">
+        </button>
+    </div>
+</div>
