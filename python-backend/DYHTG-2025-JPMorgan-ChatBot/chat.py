@@ -1,3 +1,4 @@
+import os
 from flask import Flask, request
 from flask_cors import CORS
 import json
@@ -45,3 +46,4 @@ def query():
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5001))
+    app.run(debug=False, host='0.0.0.0', port=port)
