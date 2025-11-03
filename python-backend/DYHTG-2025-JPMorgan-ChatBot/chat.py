@@ -1,10 +1,11 @@
 import os
-from flask import Flask, request
+from flask import Flask, request, jsonify
 from flask_cors import CORS
 import json
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer, CsvFileTrainer
 import sanitiser as s
+from datetime import datetime
 
 app = Flask(__name__)
 CORS(app)
@@ -36,6 +37,15 @@ trainer.train(s.sanitise_txt("BasicCasualTraining.txt"))
 trainer.train(s.sanitise_txt("nutmegtrainingdata.txt"))
 trainer.train(s.sanitise_txt("BasicEducationalTraining.txt"))
 trainercsv.train("jpmdata.csv")
+
+@app.route('/health', methods=['GET'])
+def health_check():
+    """Health check endpoint for keeping the app awake"""
+    return jsonify({
+        'status': 'alive',
+        'timestamp': datetime.now().isoformat(),
+        'message': 'Chatbot API is running'
+    }), 200
 
 @app.route('/query', methods=['POST'])
 def query():
